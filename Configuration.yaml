@@ -1,6 +1,9 @@
 #carrega arquivo shell_command em shell_comands.yaml
 shell_command: !include shell_commands.yaml
 
+#carrega arquivo automation em automations.yaml
+automation: !include automations.yaml
+
 #cria botão
 command_line:
   - switch: #ligar e desligar amplificador
