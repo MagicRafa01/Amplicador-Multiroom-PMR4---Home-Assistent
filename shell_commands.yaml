@@ -1,4 +1,4 @@
-#código fonte home assistent
+#adicionar código fonte home assistent
 restart_pow: touch ~/.pow/restart.txt
 
 #controle volume
