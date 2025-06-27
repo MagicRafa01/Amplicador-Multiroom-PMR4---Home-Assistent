@@ -1,0 +1,734 @@
+#automação controle volume zona 1
+- id: 'volume zona 1'
+  alias: Volume Zona 1
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 0
+    below: 0.1
+    id: '0'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 0.9
+    below: 1.1
+    id: '10'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 1.9
+    below: 2.1
+    id: '20'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 2.9
+    below: 3.1
+    id: '30'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 3.9
+    below: 4.1
+    id: '40'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 4.9
+    below: 5.1
+    id: '50'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 5.9
+    below: 6.1
+    id: '60'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 6.9
+    below: 7.1
+    id: '70'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 7.9
+    below: 8.1
+    id: '80'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 8.9
+    below: 9.1
+    id: '90'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona1
+    above: 9.9
+    below: 10.1
+    id: '100'
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '0'
+      sequence:
+      - action: shell_command.z1vol00
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '10'
+      sequence:
+      - action: shell_command.z1vol10
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '20'
+      sequence:
+      - action: shell_command.z1vol20
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '30'
+      sequence:
+      - action: shell_command.z1vol30
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '40'
+      sequence:
+      - action: shell_command.z1vol40
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '50'
+      sequence:
+      - action: shell_command.z1vol50
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '60'
+      sequence:
+      - action: shell_command.z1vol60
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '70'
+      sequence:
+      - action: shell_command.z1vol70
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '80'
+      sequence:
+      - action: shell_command.z1vol80
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '90'
+      sequence:
+      - action: shell_command.z1vol90
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '100'
+      sequence:
+      - action: shell_command.z1vol99
+        data: {}
+  mode: single
+
+#automação controle volume zona 2
+- id: 'volume zona 2'
+  alias: Volume Zona 2
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 0
+    below: 0.1
+    id: '0'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 0.9
+    below: 1.1
+    id: '10'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 1.9
+    below: 2.1
+    id: '20'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 2.9
+    below: 3.1
+    id: '30'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 3.9
+    below: 4.1
+    id: '40'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 4.9
+    below: 5.1
+    id: '50'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 5.9
+    below: 6.1
+    id: '60'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 6.9
+    below: 7.1
+    id: '70'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 7.9
+    below: 8.1
+    id: '80'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 8.9
+    below: 9.1
+    id: '90'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona2
+    above: 9.9
+    below: 10.1
+    id: '100'
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '0'
+      sequence:
+      - action: shell_command.z2vol00
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '10'
+      sequence:
+      - action: shell_command.z2vol10
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '20'
+      sequence:
+      - action: shell_command.z2vol20
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '30'
+      sequence:
+      - action: shell_command.z2vol30
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '40'
+      sequence:
+      - action: shell_command.z2vol40
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '50'
+      sequence:
+      - action: shell_command.z2vol50
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '60'
+      sequence:
+      - action: shell_command.z2vol60
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '70'
+      sequence:
+      - action: shell_command.z2vol70
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '80'
+      sequence:
+      - action: shell_command.z2vol80
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '90'
+      sequence:
+      - action: shell_command.z2vol90
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '100'
+      sequence:
+      - action: shell_command.z2vol99
+        data: {}
+  mode: single
+
+#automação controle volume zona 3
+- id: 'volume zona 3'
+  alias: Volume Zona 3
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 0
+    below: 0.1
+    id: '0'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 0.9
+    below: 1.1
+    id: '10'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 1.9
+    below: 2.1
+    id: '20'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 2.9
+    below: 3.1
+    id: '30'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 3.9
+    below: 4.1
+    id: '40'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 4.9
+    below: 5.1
+    id: '50'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 5.9
+    below: 6.1
+    id: '60'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 6.9
+    below: 7.1
+    id: '70'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 7.9
+    below: 8.1
+    id: '80'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 8.9
+    below: 9.1
+    id: '90'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona3
+    above: 9.9
+    below: 10.1
+    id: '100'
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '0'
+      sequence:
+      - action: shell_command.z3vol00
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '10'
+      sequence:
+      - action: shell_command.z3vol10
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '20'
+      sequence:
+      - action: shell_command.z3vol20
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '30'
+      sequence:
+      - action: shell_command.z3vol30
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '40'
+      sequence:
+      - action: shell_command.z3vol40
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '50'
+      sequence:
+      - action: shell_command.z3vol50
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '60'
+      sequence:
+      - action: shell_command.z3vol60
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '70'
+      sequence:
+      - action: shell_command.z3vol70
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '80'
+      sequence:
+      - action: shell_command.z3vol80
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '90'
+      sequence:
+      - action: shell_command.z3vol90
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '100'
+      sequence:
+      - action: shell_command.z3vol99
+        data: {}
+  mode: single
+
+#automação controle volume zona 4
+- id: 'volume zona 4'
+  alias: Volume Zona 4
+  description: ''
+  triggers:
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 0
+    below: 0.1
+    id: '0'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 0.9
+    below: 1.1
+    id: '10'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 1.9
+    below: 2.1
+    id: '20'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 2.9
+    below: 3.1
+    id: '30'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 3.9
+    below: 4.1
+    id: '40'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 4.9
+    below: 5.1
+    id: '50'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 5.9
+    below: 6.1
+    id: '60'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 6.9
+    below: 7.1
+    id: '70'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 7.9
+    below: 8.1
+    id: '80'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 8.9
+    below: 9.1
+    id: '90'
+  - trigger: numeric_state
+    entity_id:
+    - input_number.volume_zona4
+    above: 9.9
+    below: 10.1
+    id: '100'
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '0'
+      sequence:
+      - action: shell_command.z4vol00
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '10'
+      sequence:
+      - action: shell_command.z4vol10
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '20'
+      sequence:
+      - action: shell_command.z4vol20
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '30'
+      sequence:
+      - action: shell_command.z4vol30
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '40'
+      sequence:
+      - action: shell_command.z4vol40
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '50'
+      sequence:
+      - action: shell_command.z4vol50
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '60'
+      sequence:
+      - action: shell_command.z4vol60
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '70'
+      sequence:
+      - action: shell_command.z4vol70
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '80'
+      sequence:
+      - action: shell_command.z4vol80
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '90'
+      sequence:
+      - action: shell_command.z4vol90
+        data: {}
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - '100'
+      sequence:
+      - action: shell_command.z4vol99
+        data: {}
+
+#automação seleção da entrada
+#zona1
+- id: z1-1
+  alias: zona 1 inp 1
+  triggers: []
+  actions:
+  - action: shell_command.z1inp1
+    data: {}
+  mode: single
+- id: z1-2
+  alias: Zona 1 inp 2
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z1inp2
+    metadata: {}
+    data: {}
+  mode: single
+
+#zona 2
+- id: z2-1
+  alias: Zona 2 inp 1
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z2inp1
+    metadata: {}
+    data: {}
+  mode: single
+- id: z2-2
+  alias: Zona 2 inp 2
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z2inp2
+    metadata: {}
+    data: {}
+  mode: single
+
+#zona3
+- id: z3-1
+  alias: Zona 3 inp 1
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z3inp1
+    metadata: {}
+    data: {}
+  mode: single
+- id: z3-2
+  alias: Zona 3 inp 2
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z3inp2
+    metadata: {}
+    data: {}
+  mode: single
+
+#zona4
+- id: z4-1
+  alias: Zona 4 inp 1
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z4inp1
+    metadata: {}
+    data: {}
+  mode: single
+- id: z4-2
+  alias: Zona 4 inp 2
+  description: ''
+  triggers: []
+  conditions: []
+  actions:
+  - action: shell_command.z4inp2
+    metadata: {}
+    data: {}
+  mode: single
