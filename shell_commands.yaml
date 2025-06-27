@@ -1,0 +1,62 @@
+#código fonte home assistent
+restart_pow: touch ~/.pow/restart.txt
+
+#controle volume
+#zona1
+z1vol00: echo ‘[t001 VOLSETX 1 0]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol10: echo ‘[t001 VOLSETX 1 10]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol20: echo ‘[t001 VOLSETX 1 20]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol30: echo ‘[t001 VOLSETX 1 30]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol40: echo ‘[t001 VOLSETX 1 40]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol50: echo ‘[t001 VOLSETX 1 50]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol60: echo ‘[t001 VOLSETX 1 60]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol70: echo ‘[t001 VOLSETX 1 70]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol80: echo ‘[t001 VOLSETX 1 80]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol90: echo ‘[t001 VOLSETX 1 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1vol99: echo ‘[t001 VOLSETX 1 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+#zona2
+z2vol00: echo ‘[t001 VOLSETX 2 0]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol10: echo ‘[t001 VOLSETX 2 10]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol20: echo ‘[t001 VOLSETX 2 20]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol30: echo ‘[t001 VOLSETX 2 30]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol40: echo ‘[t001 VOLSETX 2 40]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol50: echo ‘[t001 VOLSETX 2 50]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol60: echo ‘[t001 VOLSETX 2 60]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol70: echo ‘[t001 VOLSETX 2 70]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol80: echo ‘[t001 VOLSETX 2 80]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol90: echo ‘[t001 VOLSETX 2 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2vol99: echo ‘[t001 VOLSETX 2 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+#zona3
+z3vol00: echo ‘[t001 VOLSETX 3 0]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol10: echo ‘[t001 VOLSETX 3 10]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol20: echo ‘[t001 VOLSETX 3 20]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol30: echo ‘[t001 VOLSETX 3 30]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol40: echo ‘[t001 VOLSETX 3 40]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol50: echo ‘[t001 VOLSETX 3 50]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol60: echo ‘[t001 VOLSETX 3 60]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol70: echo ‘[t001 VOLSETX 3 70]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol80: echo ‘[t001 VOLSETX 3 80]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol90: echo ‘[t001 VOLSETX 3 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3vol99: echo ‘[t001 VOLSETX 3 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+#zona4
+z4vol00: echo ‘[t001 VOLSETX 4 0]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol10: echo ‘[t001 VOLSETX 4 10]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol20: echo ‘[t001 VOLSETX 4 20]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol30: echo ‘[t001 VOLSETX 4 30]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol40: echo ‘[t001 VOLSETX 4 40]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol50: echo ‘[t001 VOLSETX 4 50]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol60: echo ‘[t001 VOLSETX 4 60]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol70: echo ‘[t001 VOLSETX 4 70]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol80: echo ‘[t001 VOLSETX 4 80]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol90: echo ‘[t001 VOLSETX 4 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4vol99: echo ‘[t001 VOLSETX 4 87]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+
+#seleção da entrada 
+z1inp1: echo ‘[t001 INPSET 1 1]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z1inp2: echo ‘[t001 INPSET 1 2]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2inp1: echo ‘[t001 INPSET 2 1]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z2inp2: echo ‘[t001 INPSET 2 2]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3inp1: echo ‘[t001 INPSET 3 1]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z3inp2: echo ‘[t001 INPSET 3 2]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4inp1: echo ‘[t001 INPSET 4 1]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
+z4inp2: echo ‘[t001 INPSET 4 2]’ | nc -i 1 -w 3 #seu ip e porta aqui | ex:192.168.15.20 6000
