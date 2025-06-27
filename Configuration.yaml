@@ -1,1 +1,53 @@
+#carrega arquivo shell_command em shell_comands.yaml
+shell_command: !include shell_commands.yaml
 
+#cria botão
+command_line:
+  - switch: #ligar e desligar amplificador
+      name: Amplificador
+      command_on: echo ‘[t001 PWRON]’ | nc -i 1 #seu ip aqui
+      command_off: echo ‘[t001 PWROFF]’ | nc -i 1 #seu ip aqui
+  - switch: #Mutar zona 1
+      name: Zona 1
+      unique_id: "zona1_sala_de_estar"
+      command_on: echo ‘[t001 MUTEOFF 1]’ | nc -i 1 #seu ip aqui
+      command_off: echo ‘[t001 MUTEON 1]’ | nc -i 1 #seu ip aqui
+  - switch: #Mutar zona 2
+      name: Zona 2
+      unique_id: "zona2_sala_de_jantar"
+      command_on: echo ‘[t001 MUTEOFF 2]’ | nc -i 1 #seu ip aqui
+      command_off: echo ‘[t001 MUTEON 2]’ | nc -i 1 #seu ip aqui
+  - switch: #Mutar zona 3
+      name: Zona 3
+      unique_id: "zona3_gourmet"
+      command_on: echo ‘[t001 MUTEOFF 3]’ | nc -i 1 #seu ip aqui
+      command_off: echo ‘[t001 MUTEON 3]’ | nc -i 1 #seu ip aqui
+  - switch: #Mutar zona 4
+      name: Zona 4
+      unique_id: "zona4_piscina"
+      command_on: echo ‘[t001 MUTEOFF 4]’ | nc -i 1 #seu ip aqui
+      command_off: echo ‘[t001 MUTEON 4]’ | nc -i 1 #seu ip aqui
+
+#botão deslizante para volume do amplificador
+input_number:
+  volume_zona1:
+    name: Zona 1
+    min: 0
+    max: 10
+    step: 1
+  volume_zona2:
+    name: Zona 2
+    min: 0
+    max: 10
+    step: 1 
+  volume_zona3:
+    name: Zona 2
+    min: 0
+    max: 10
+    step: 1   
+  volume_zona4:
+    name: Zona 2
+    min: 0
+    max: 10
+    step: 1
+    
