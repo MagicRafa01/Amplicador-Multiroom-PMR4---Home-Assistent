@@ -40,9 +40,7 @@ Finalizado ✅
 - PRM4 Multiroom Amplifier
 
 ## Pessoa Desenvolvedora
-## 👨‍💻 Pessoa Desenvolvedora
-
-| [<img src="documentos/rafa.jpeg" width="120" style="border-radius: 50%"><br><sub>Rafael</sub>](https://github.com/MagicRafa01) |
+| [<img src="https://github.com/MagicRafa01.png" width="120" style="border-radius: 50%"><br><sub>Rafael</sub>](https://github.com/MagicRafa01) |
 |:---:|
 
   Desenvolvedor responsável por toda a configuração e integração com base na documentação oficial do Home Assistant.
