@@ -1,5 +1,6 @@
 # Amplicador-Multiroom-PMR4---Home-Assistent
 Integração manual do amplificador AAT Multiroom PRM-4 com o Home Assistant.
+<br>
 ![image](https://github.com/user-attachments/assets/a2ddfd10-8433-4bbd-be88-57444a691bf8)
 
 ## Badges
@@ -50,7 +51,7 @@ Este é um projeto de configuração local no Home Assistant. Para replicar:
 - PRM4 Multiroom Amplifier
 
 ## Pessoa Desenvolvedora
-| [<img src="https://github.com/MagicRafa01.png" width="150" style="border-radius: 50%"><br><sub>Rafael Santiago Fagundes</sub>](https://github.com/MagicRafa01) |
+| [<img src="https://github.com/MagicRafa01.png" width="200" style="border-radius: 50%"><br><sub>Rafael Santiago Fagundes</sub>](https://github.com/MagicRafa01) |
 |:---:|
 
   Desenvolvedor responsável por toda a configuração e integração com base na documentação oficial do Home Assistant.
