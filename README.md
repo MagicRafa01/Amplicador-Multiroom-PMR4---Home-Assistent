@@ -34,6 +34,15 @@ Finalizado ✅
 ## Demonstração
 ![Captura de tela 2025-06-27 213311](https://github.com/user-attachments/assets/83d51f4c-8f19-4393-ab04-8a7ac18939e0)
 
+## Acesso ao Projeto
+
+Este é um projeto de configuração local no Home Assistant. Para replicar:
+
+1. Crie os arquivos e adicione os códigos do projeto.
+2. Reinicie o Home Assistant para aplicar as mudanças.
+3. Adicione um card, vá em manual e adicione o código do arquivo Lovelace.
+
+
 ## Tecnologias Utilizadas
 - Home Assistant
 - YAML
@@ -41,7 +50,7 @@ Finalizado ✅
 - PRM4 Multiroom Amplifier
 
 ## Pessoa Desenvolvedora
-| [<img src="https://github.com/MagicRafa01.png" width="150" style="border-radius: 50%"><br><sub>Rafael</sub>](https://github.com/MagicRafa01) |
+| [<img src="https://github.com/MagicRafa01.png" width="150" style="border-radius: 50%"><br><sub>Rafael Santiago Fagundes</sub>](https://github.com/MagicRafa01) |
 |:---:|
 
   Desenvolvedor responsável por toda a configuração e integração com base na documentação oficial do Home Assistant.
