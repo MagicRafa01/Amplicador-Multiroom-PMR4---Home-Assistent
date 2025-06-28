@@ -1,0 +1,127 @@
+#Utilizado a instalção do Mushroom cards via Hacs para organizar Dashboard 
+
+type: vertical-stack
+cards:
+  - type: custom:mushroom-vacuum-card
+    grid_options:
+      columns: 12
+      rows: 1
+  - type: custom:mushroom-title-card
+    title: AMPLIFICADOR
+    subtitle: ""
+  - type: custom:mushroom-entity-card
+    entity: switch.amplificador
+    name: Multiroom ATT
+    icon: mdi:power
+    layout: vertical
+    fill_container: true
+    tap_action:
+      action: toggle
+    card_mod:
+      style: |
+        ha-card {
+          width: 150px;
+          height: 150px;
+          margin: auto;
+          border-radius: 16px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        mushroom-shape-icon {
+          --icon-size: 64px;
+        }
+  - type: custom:mushroom-title-card
+    title: Zonas
+  - type: vertical-stack
+    cards:
+      - type: horizontal-stack
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: switch.sala_de_estar
+            icon: mdi:volume-high
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_1_inp_1_3
+            fill_container: false
+            icon_color: red
+            name: HOME
+            icon_type: icon
+            secondary_info: none
+            icon: mdi:home
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_1_inp_2_2
+            secondary_info: none
+            name: GOURMET
+            icon: mdi:grill
+            icon_color: red
+      - type: custom:mushroom-number-card
+        entity: input_number.volume_zona1
+        name: Volume
+      - type: horizontal-stack
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: switch.sala_de_jantar
+            icon: mdi:volume-high
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_2_inp_1_2
+            fill_container: false
+            icon_color: red
+            name: HOME
+            icon_type: icon
+            secondary_info: none
+            icon: mdi:home
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_2_inp_2
+            secondary_info: none
+            name: GOURMET
+            icon: mdi:grill
+            icon_color: red
+      - type: custom:mushroom-number-card
+        entity: input_number.volume_zona2
+        name: Volume
+      - type: horizontal-stack
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: switch.gourmet
+            icon: mdi:volume-high
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_3_inp_1_2
+            fill_container: false
+            icon_color: red
+            icon_type: icon
+            secondary_info: none
+            icon: mdi:home
+            name: HOME
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_3_inp_2_2
+            secondary_info: none
+            name: GOURMET
+            icon: mdi:grill
+            icon_color: red
+      - type: custom:mushroom-number-card
+        entity: input_number.volume_zona3
+        name: Volume
+      - type: horizontal-stack
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: switch.piscina
+            icon: mdi:volume-high
+            fill_container: false
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_4_inp_1_2
+            fill_container: false
+            icon_color: red
+            name: HOME
+            icon_type: icon
+            secondary_info: none
+            icon: mdi:home
+          - type: custom:mushroom-entity-card
+            entity: automation.zona_4_inp_2
+            secondary_info: none
+            name: GOURMET
+            icon: mdi:grill
+            icon_color: red
+      - type: custom:mushroom-number-card
+        entity: input_number.volume_zona4
+        name: Volume
+grid_options:
+  rows: auto
+  columns: full
