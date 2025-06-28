@@ -1,6 +1,6 @@
 # Amplicador-Multiroom-PMR4---Home-Assistent
-Integração manual do amplificador AAT Multiroom PRM-4 com o Home Assistant.
-<br>
+Integração manual do amplificador AAT Multiroom PRM-4 com o Home Assistant. 
+\
 ![image](https://github.com/user-attachments/assets/a2ddfd10-8433-4bbd-be88-57444a691bf8)
 
 ## Badges
