@@ -17,7 +17,7 @@ Integração manual do amplificador AAT Multiroom PRM-4 com o Home Assistant.
 - [Funcionalidades](#funcionalidades)
 - [Demonstração](#demonstração)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pessoas Desenvolvedora](#pessoa-desenvolvedora)
+- [Pessoa Desenvolvedora](#pessoa-desenvolvedora)
 - [Licença](#licença)
 
 ## Descrição do Projeto
