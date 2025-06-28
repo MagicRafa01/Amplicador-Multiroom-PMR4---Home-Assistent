@@ -41,7 +41,7 @@ Finalizado ✅
 
 ## Pessoa Desenvolvedora
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |
+| [<![129103826](https://github.com/user-attachments/assets/00faaa10-25a6-46f1-ba02-28be2f59d98f)><br><sub>Rafael Santiago Fagundes</sub>](https://github.com/MagicRafa01) |
   Desenvolvedor responsável por toda a configuração e integração com base na documentação oficial do Home Assistant.
 
 ---
