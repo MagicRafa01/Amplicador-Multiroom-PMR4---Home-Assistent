@@ -40,8 +40,9 @@ Finalizado ✅
 - PRM4 Multiroom Amplifier
 
 ## Pessoa Desenvolvedora
-
-| [<![129103826](https://github.com/user-attachments/assets/00faaa10-25a6-46f1-ba02-28be2f59d98f)><br><sub>Rafael Santiago Fagundes</sub>](https://github.com/MagicRafa01) |
+| [<img src="![129103826](https://github.com/user-attachments/assets/876ca5aa-729f-4c42-8288-e3639f19643c)
+" width="120" style="border-radius: 50%"><br><sub>Rafael</sub>](https://github.com/seu-usuario) |
+|:---:|
   Desenvolvedor responsável por toda a configuração e integração com base na documentação oficial do Home Assistant.
 
 ---
